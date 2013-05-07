@@ -1,3 +1,52 @@
 /*
 	In Vino Ars Est
  */
+
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+html, body {
+	height: 100%;
+	background: #000 url('background.jpeg') center center;
+	background-size: cover;
+	color: #000;
+}
+
+h1 {
+	position: fixed;
+	z-index: 1;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	width: 100%;
+	top: 50%;
+	text-align: center;
+}
+
+#tiles {
+	width: 400px;
+	position: relative;
+}
+.tile {
+	width: 200px;
+	height: 150px;
+	float: left;
+	position: absolute;
+	-webkit-transition: all .5s ease-out;
+}
+/*.tile-1 {
+	background-color: red;
+}
+.tile-2 {
+	-webkit-transform: translate3d(200px,0px,0px);
+	background-color: blue;
+}
+.tile-3 {
+	-webkit-transform: translate3d(0px,150px,0px);
+	background-color: green;
+}
+.tile-4 {
+	-webkit-transform: translate3d(200px,150px,0px);
+	background-color: yellow;
+}*/
