@@ -19,6 +19,7 @@ h1 {
 	position: fixed;
 	z-index: 1;
 	font-family: "brandon-grotesque", sans-serif;
+	font-weight: normal;
 	width: 100%;
 	top: 50%;
 	text-align: center;
