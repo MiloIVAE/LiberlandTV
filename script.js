@@ -1,1 +1,1 @@
-console.log('In Vino Ars Est');
+console.log('Liberland Television');
